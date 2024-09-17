@@ -8,7 +8,7 @@
 public struct Seed {
     public let phrase: String
     
-    init(phrase: String) {
+    public init(phrase: String) {
         self.phrase = phrase
     }
 }
